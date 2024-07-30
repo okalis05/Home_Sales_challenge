@@ -16,13 +16,14 @@
 - Cached our temporary table home_sales.
 - Checked if our temporary table is cached.
 - then using the cached data, ran the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000 and determined the runtime and compared it to uncached runtime.
-  
-   <img width="468" alt="Screenshot 2024-07-30 at 3 14 46 PM" src="https://github.com/user-attachments/assets/453d7b22-5344-41cd-881b-dec2a52c266e">
-
+  <img width="487" alt="Screenshot 2024-07-30 at 3 37 10 PM" src="https://github.com/user-attachments/assets/e94dd0e1-9c0e-42b8-b9be-1a92df058c9f">
 
 - Partitioned by the "date_built" field on the formatted parquet home sales data.
 - Created a temporary table for the parquet data.
 - Ran the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
+
+    <img width="468" alt="Screenshot 2024-07-30 at 3 14 46 PM" src="https://github.com/user-attachments/assets/453d7b22-5344-41cd-881b-dec2a52c266e">
+
 - Uncached the home_sales temporary table.
 - Verified that the home_sales temporary table is uncached using PySpark.
  
